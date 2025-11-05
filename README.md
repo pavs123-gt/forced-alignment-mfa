@@ -51,6 +51,23 @@ forced-alignment-mfa/
 ├── README.md            # This guide
 └── scripts/             # (optional) helper scripts
 ```
+## ✅ Features
+
+- Performs word-level and phoneme-level forced alignment
+- Works with Montreal Forced Aligner (MFA)
+- Generates TextGrid files compatible with Praat
+- Simple folder-based dataset structure
+- Can use built-in or custom pronunciation dictionaries
+## ⚙️ Setup & Installation
+
+### 1. Download and install MFA
+```bash
+wget https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/releases/download/v2.2.17/mfa_linux_x86_64.zip
+unzip mfa_linux_x86_64.zip
+cd mfa
+
+
+
 
 
 
