@@ -48,13 +48,7 @@ forced-alignment-mfa/
 ├── README.md            # This guide
 └── scripts/             # (optional) helper scripts
 ```
-## ✅ Features
 
-- Performs word-level and phoneme-level forced alignment
-- Works with Montreal Forced Aligner (MFA)
-- Generates TextGrid files compatible with Praat
-- Simple folder-based dataset structure
-- Can use built-in or custom pronunciation dictionaries
 
 ## Setup & Installation
 
