@@ -8,17 +8,14 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 
 ---
 
-## 📌 Table of Contents
-
-- [Features](#features)
-- [Project Structure](#project-structure)
+## Table of Contents
 - [Setup & Installation](#setup--installation)
 - [Dataset Format](#dataset-format)
-- [Usage – Running Alignment](#usage--running-alignment)
-- [Inspecting Output](#inspecting-output)
-- [Key Observations](#key-observations)
+- [Running Forced Alignment](#running-forced-alignment)
+- [Inspecting Output in Praat](#inspecting-output-in-praat)
 - [Tools Used](#tools-used)
 - [Author](#author)
+
 
 ---
 
