@@ -116,6 +116,13 @@ output/
 2. Go to: File → Open → Read from file
 3. Select the `.wav` and `.TextGrid` file
 4. View the waveform with phoneme and word boundaries
+
+### Sample Alignment Output
+
+The following screenshot shows the word-level and phoneme-level alignment viewed in Praat:
+
+![Praat Output]()
+
 ## Tools Used
 
 - Montreal Forced Aligner (MFA)
