@@ -121,7 +121,7 @@ output/
 
 The following screenshot shows the word-level and phoneme-level alignment viewed in Praat:
 
-![Praat Output]()
+![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
 ## Tools Used
 
