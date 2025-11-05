@@ -123,9 +123,6 @@ output/
 After running the Montreal Forced Aligner, TextGrid files are generated.  
 The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 
-![Praat Output](<your_image_link_here>)
-
-
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
 ## Tools Used
