@@ -31,6 +31,28 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 - Simple folder-based input, no coding required for basic use
 
 ---
-
 ## 📂 Project Structure
+
+```
+forced-alignment-mfa/
+│
+├── wav/                 # Input audio (.wav)
+│   └── audio1.wav
+│   └── audio2.wav
+│
+├── transcripts/         # Text transcripts (.txt)
+│   └── audio1.txt
+│   └── audio2.txt
+│
+├── output/              # Generated TextGrid alignment files
+│   └── audio1.TextGrid
+│   └── audio2.TextGrid
+│
+├── README.md            # This guide
+└── scripts/             # (optional) helper scripts
+```
+
+
+
+
 
