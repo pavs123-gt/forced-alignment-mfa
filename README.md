@@ -117,9 +117,14 @@ output/
 3. Select the `.wav` and `.TextGrid` file
 4. View the waveform with phoneme and word boundaries
 
+
 ### Sample Alignment Output
 
-The following screenshot shows the word-level and phoneme-level alignment viewed in Praat:
+After running the Montreal Forced Aligner, TextGrid files are generated.  
+The screenshot below shows how phoneme and word boundaries are aligned in Praat:
+
+![Praat Output](<your_image_link_here>)
+
 
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
