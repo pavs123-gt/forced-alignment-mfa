@@ -65,6 +65,91 @@ forced-alignment-mfa/
 wget https://github.com/MontrealCorpusTools/Montreal-Forced-Aligner/releases/download/v2.2.17/mfa_linux_x86_64.zip
 unzip mfa_linux_x86_64.zip
 cd mfa
+2. Verify Installation
+
+After downloading, run the following command to confirm MFA is working:
+
+```bash
+./mfa_align --help
+## Running Forced Alignment
+
+##Running FOrced ALignment
+
+Download dictionary:
+```bash
+mfa download dictionary english_us_arpa
+
+2. Verify Installation
+
+After installing MFA, run the following command to confirm that it is working correctly:
+
+```bash
+./mfa_align --help
+```
+
+If a help menu appears in the terminal, the installation is successful ✅
+
+
+## Dataset Format
+
+Your project must contain three folders:
+
+```
+wav/          → audio files (.wav)
+transcripts/  → text transcripts (.txt)
+output/       → TextGrid alignment results
+```
+
+Example:
+```
+wav/audio1.wav
+transcripts/audio1.txt
+```
+
+Each transcript must match the audio filename.
+
+
+## Running Forced Alignment
+
+First, download the built-in English dictionary:
+
+```bash
+mfa download dictionary english_us_arpa
+```
+
+Then run alignment:
+
+```bash
+mfa align wav/ transcripts/ english_us_arpa output/
+```
+
+After alignment finishes, TextGrid files will appear inside:
+
+```
+output/
+```
+
+
+## Inspecting Output (Praat)
+
+1. Open Praat
+2. Go to: File → Open → Read from file
+3. Select the `.wav` file and its `.TextGrid`
+4. You will see word and phoneme boundaries on the waveform
+
+
+## Tools Used
+
+- Montreal Forced Aligner (MFA)
+- Praat (for visualization)
+- Linux terminal
+
+
+## Author
+
+Linguberi Pavani
+
+
 
 
 
