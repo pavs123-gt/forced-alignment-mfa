@@ -120,5 +120,92 @@ The `output_custom.zip` contains:
 ````
 Linguberi Pavani
 ```
+# Forced Alignment using Montreal Forced Aligner (MFA)
+
+This project performs forced alignment on speech audio (.wav) and transcripts using Montreal Forced Aligner (MFA). It generates timestamped TextGrid files with word and phoneme boundaries, which can be visualized in Praat.
+
+## Table of Contents
+- Setup & Installation
+- Dataset Format
+- Features
+- Running Forced Alignment
+- Inspecting Output in Praat
+- Sample Alignment Output
+- Final Alignment Output
+- Custom Dictionary Output
+- Final Report
+- Tools Used
+- Author
+
+## Setup & Installation
+conda create -n mfa python=3.8 -y
+conda activate mfa
+pip install montreal-forced-aligner
+mfa version
+
+To verify installation:
+mfa_align --help
+
+## Dataset Format
+Wav/                → speech audio files (.wav)
+Transcripts/        → transcript files (.txt)
+output_custom/      → TextGrid alignment results
+custom.dict         → custom dictionary
+
+## Features
+- Performs word and phoneme alignment on speech audio
+- Generates TextGrid files for every sample
+- TextGrid files can be opened in Praat to see word and phone boundaries
+- Supports custom dictionary alignment
+- Creates readable alignment output text files in final_alignment_output.zip
+
+## Running Forced Alignment
+1. Download dictionary:
+mfa download dictionary english_us_arpa
+
+2. Align audio and transcript:
+mfa align Wav/ Transcripts/ english_us_arpa output/
+
+Aligned TextGrid files will appear inside:
+output/
+
+## Inspecting Output in Praat
+1. Open Praat
+2. File → Open → Read from File
+3. Select .wav and .TextGrid
+4. View waveform with word and phoneme timestamps
+
+## Sample Alignment Output
+Praat visualization screenshot:
+(Your praat.png image link)
+
+## Final Alignment Output
+Complete alignment results are provided in:
+final_alignment_output.zip
+
+This ZIP contains:
+- Word-level timestamps
+- Phone-level timestamps
+- One alignment text file per audio
+
+## Custom Dictionary Output
+output_custom.zip contains:
+- custom.dict
+- alignment_analysis.csv
+- TextGrid generated using custom dictionary
+
+## Final Report
+Download Report.pdf from repository:
+(Your Repo Link)
+
+## Tools Used
+Montreal Forced Aligner (MFA)
+Praat
+Linux Terminal
+Python
+
+## Author
+Linguberi Pavani
+
 
 
