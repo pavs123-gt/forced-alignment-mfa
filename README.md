@@ -73,8 +73,7 @@ This allows you to verify whether the boundaries and durations match the actual 
 
 After processing all audio files, the system generates time-aligned transcripts.  
 The complete alignment results are provided in:
----
-📁 **final_alignment_output.zip**
+ **final_alignment_output.zip**
 
 This ZIP contains:
 - Word-level timestamps
