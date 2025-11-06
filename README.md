@@ -29,7 +29,7 @@ conda activate mfa
 pip install montreal-forced-aligner
 mfa version
 mfa align --help
-
+```
 ---
 ## ✅ Features
 - Performs forced alignment on speech audio and transcripts
@@ -44,7 +44,8 @@ To perform forced alignment, we first download a pronunciation dictionary and th
 ### 1️⃣ Download dictionary
 ```bash
 mfa download dictionary english_us_arpa
-
+```
+---
 ## ✅ Inspecting Output in Praat
 
 Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.  
@@ -62,15 +63,17 @@ Praat will display:
 - Phoneme-level alignment
 
 This allows you to verify whether the boundaries and durations match the actual speech signal.
+---
 
 ## 🗂 Sample Alignment Visualization
 ✔ Screenshot of TextGrid and Praat showing aligned words and phones.
+---
 
 ## ✅ Final Alignment Output
 
 After processing all audio files, the system generates time-aligned transcripts.  
 The complete alignment results are provided in:
-
+---
 📁 **final_alignment_output.zip**
 
 This ZIP contains:
