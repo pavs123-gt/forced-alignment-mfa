@@ -18,8 +18,9 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 - [Final Report](#final-report)
 - [Tools Used](#tools-used)
 - [Author](#author)
-
+---
 ## ✅ Setup & Installation
+
 
 ### 1️⃣ Create a Conda Environment
 ```bash
@@ -28,8 +29,7 @@ conda activate mfa
 pip install montreal-forced-aligner
 mfa version
 mfa align --help
-
-
+---
 ## ✅ Features
 - Performs forced alignment on speech audio and transcripts
 - Generates TextGrid files with word-level and phoneme-level timestamps
@@ -37,7 +37,7 @@ mfa align --help
 - Supports custom pronunciation dictionaries (`custom.dict`)
 - Produces readable alignment output (.txt) inside `final_alignment_output.zip`
 - Works for multiple audio files automatically
-
+---
 ## ✅ Running Forced Alignment:
 To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
 ### 1️⃣ Download dictionary
