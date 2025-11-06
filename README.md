@@ -7,14 +7,15 @@ The system takes `.wav` audio files and their transcript files, performs forced 
 These TextGrid files can be opened and analyzed in **Praat** for visualization.
 
 ---
-
 ## Table of Contents
 - [Setup & Installation](#setup--installation)
 - [Dataset Format](#dataset-format)
 - [Running Forced Alignment](#running-forced-alignment)
 - [Inspecting Output in Praat](#inspecting-output-in-praat)
+- [Final Alignment Output](#final-alignment-output)
 - [Tools Used](#tools-used)
 - [Author](#author)
+
 
 
 ---
