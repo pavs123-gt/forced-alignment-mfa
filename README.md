@@ -63,9 +63,10 @@ mfa align wav/ transcripts/ english_us_arpa output/
 ```
 
 After completion, alignment TextGrid files will appear inside:
+output/
 
 ```
-output/
+
 ## Inspecting Output in Praat
 
 1. Open Praat
@@ -81,7 +82,8 @@ The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
-### Final Alignment Output
+## Final Alignment Output:
+```
 Complete alignment results are provided in:
 ✅ final_alignment_output.zip
 
@@ -90,46 +92,33 @@ This ZIP contains:
 - Phones time-aligned
 - Individual alignment text files for all audio
 
-##  Custom Dictionary Output
+```
+##  Custom Dictionary Output:
+```
 The `output_custom.zip` contains:
 - custom.dict
 - alignment_analysis.csv
 - TextGrid files generated using my custom lexicon
+```
 
 
 ## Tools Used
-
+```
 - Montreal Forced Aligner (MFA)
 - Praat
 - Linux Terminal
+```
 
 ### 📄 Final Report
+```
 👉 [Download Report.pdf](https://github.com/pavs123-gt/forced-alignment-mfa/raw/main/Report.pdf)
 
 (The preview may not load on GitHub, but the file downloads and opens correctly.)
+```
 
 ## Author
-
+````
 Linguberi Pavani
-
----
-## 📂 Project Structure
-
 ```
-forced-alignment-mfa/
-│
-├── wav/                ✅ audio + transcript pairs
-│   ├── audio1.wav
-│   ├── audio1.txt
-│   ├── audio2.wav
-│   ├── audio2.txt
-│   └── ...
-│
-├── output/             ✅ final results
-│   ├── audio1.TextGrid
-│   └── results.csv
-│
-└── README.md
 
-```
 
