@@ -13,8 +13,11 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 - [Running Forced Alignment](#running-forced-alignment)
 - [Inspecting Output in Praat](#inspecting-output-in-praat)
 - [Final Alignment Output](#final-alignment-output)
+- [Custom Dictionary Output](#custom-dictionary-output)
 - [Tools Used](#tools-used)
+- [Final Report](#final-report)
 - [Author](#author)
+
 
 
 
