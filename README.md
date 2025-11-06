@@ -130,6 +130,12 @@ The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 - Montreal Forced Aligner (MFA)
 - Praat
 - Linux Terminal
+- ## 📄 Final Report
+
+The complete assignment report including methodology, alignment screenshots, and key observations can be downloaded below:
+
+➡️ **[Download Final Report (PDF)](Report_updated.pdf)**
+
 
 ## Author
 
