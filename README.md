@@ -127,7 +127,7 @@ The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
 
-### ✅ Final Alignment Output
+### Final Alignment Output
 Complete alignment results are provided in:
 ✅ final_alignment_output.zip
 
@@ -140,7 +140,7 @@ This ZIP contains:
 
 
 
-## ✅ Custom Dictionary Output
+##  Custom Dictionary Output
 The `output_custom.zip` contains:
 - custom.dict
 - alignment_analysis.csv
