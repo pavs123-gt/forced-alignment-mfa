@@ -21,7 +21,7 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 ---
 ## ✅ Setup & Installation
 
-
+```
 ### 1️⃣ Create a Conda Environment
 ```bash
 conda create -n mfa python=3.8 -y
@@ -29,6 +29,7 @@ conda activate mfa
 pip install montreal-forced-aligner
 mfa version
 mfa align --help
+
 ---
 ## ✅ Features
 - Performs forced alignment on speech audio and transcripts
