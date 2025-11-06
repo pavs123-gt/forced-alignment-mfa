@@ -125,9 +125,16 @@ The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
-Complete alignment results are provided in:
 
+### ✅ Final Alignment Output
+Complete alignment results are provided in:
 ✅ final_alignment_output.zip
+
+This ZIP contains:
+- Words time-aligned
+- Phones time-aligned
+- Individual alignment text files for all audio
+
 
 
 
