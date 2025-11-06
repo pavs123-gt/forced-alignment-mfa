@@ -31,21 +31,19 @@ mfa align --help
 
 
 ## ✅ Features
-
 - Performs forced alignment on speech audio and transcripts
 - Generates TextGrid files with word-level and phoneme-level timestamps
 - TextGrid files can be visualized in Praat
-- Supports custom pronunciation dictionaries (custom.dict)
-- Produces readable alignment output (.txt) inside final_alignment_output.zip
+- Supports custom pronunciation dictionaries (`custom.dict`)
+- Produces readable alignment output (.txt) inside `final_alignment_output.zip`
 - Works for multiple audio files automatically
 
-## ✅ Running Forced Alignment
-
+## ✅ Running Forced Alignment:
 To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
-
-Download the English dictionary:
+### 1️⃣ Download dictionary
 ```bash
 mfa download dictionary english_us_arpa
+
 ## ✅ Inspecting Output in Praat
 
 Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.  
