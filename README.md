@@ -132,8 +132,11 @@ The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 - Linux Terminal
 
 
-## 📄 Final Report
-🔗 [Click here to download the Report](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/Report.pdf)
+### 📄 Final Report
+👉 [Download Report.pdf](https://github.com/pavs123-gt/forced-alignment-mfa/raw/main/Report.pdf)
+
+(The preview may not load on GitHub, but the file downloads and opens correctly.)
+
 
 
 
