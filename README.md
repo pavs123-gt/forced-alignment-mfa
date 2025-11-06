@@ -1,27 +1,32 @@
-# forced-alignment-mfa
-Forced Alignment Using Montreal Forced Aligner(MFA)
 # Forced Alignment using Montreal Forced Aligner (MFA)
 
 A complete pipeline for aligning speech audio with text transcripts using **Montreal Forced Aligner (MFA)**.  
-The system takes `.wav` audio files and their transcript files, performs forced alignment, and generates **TextGrid files** with word and phoneme-level timestamps.  
+The system takes `.wav` audio files and their transcript files, performs forced alignment, and generates **TextGrid files**  
+with word and phoneme-level timestamps.  
 These TextGrid files can be opened and analyzed in **Praat** for visualization.
 
 ---
-## Table of Contents
+
+## ✅ Table of Contents
 - [Setup & Installation](#setup--installation)
 - [Dataset Format](#dataset-format)
 - [Running Forced Alignment](#running-forced-alignment)
 - [Inspecting Output in Praat](#inspecting-output-in-praat)
 - [Final Alignment Output](#final-alignment-output)
 - [Custom Dictionary Output](#custom-dictionary-output)
-- [Tools Used](#tools-used)
 - [Final Report](#final-report)
+- [Tools Used](#tools-used)
 - [Author](#author)
 
-
-
-
 ---
+
+## ✅ Setup & Installation
+```bash
+conda create -n mfa python=3.8 -y
+conda activate mfa
+pip install montreal-forced-aligner
+mfa version
+
 
 ## ✅ Features
 
