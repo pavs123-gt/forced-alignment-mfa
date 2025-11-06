@@ -29,6 +29,7 @@ pip install montreal-forced-aligner
 mfa version
 mfa align --help
 
+
 ## ✅ Features
 
 - Performs forced alignment on speech audio and transcripts
