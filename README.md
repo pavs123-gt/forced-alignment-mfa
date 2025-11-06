@@ -19,7 +19,7 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 - [Tools Used](#tools-used)
 - [Author](#author)
 ---
-## ✅ Setup & Installation
+##  Setup & Installation
 
 ```
 ### 1️⃣ Create a Conda Environment
@@ -31,7 +31,7 @@ mfa version
 mfa align --help
 ```
 ---
-## ✅ Features
+## Features
 - Performs forced alignment on speech audio and transcripts
 - Generates TextGrid files with word-level and phoneme-level timestamps
 - TextGrid files can be visualized in Praat
@@ -39,14 +39,14 @@ mfa align --help
 - Produces readable alignment output (.txt) inside `final_alignment_output.zip`
 - Works for multiple audio files automatically
 ---
-## ✅ Running Forced Alignment:
+##  Running Forced Alignment:
 To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
 ### 1️⃣ Download dictionary
 ```bash
 mfa download dictionary english_us_arpa
 ```
 ---
-## ✅ Inspecting Output in Praat
+##  Inspecting Output in Praat
 
 Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.  
 You can visualize word and phoneme boundaries in **Praat**:
@@ -69,7 +69,7 @@ This allows you to verify whether the boundaries and durations match the actual 
 ✔ Screenshot of TextGrid and Praat showing aligned words and phones.
 ---
 
-## ✅ Final Alignment Output
+##  Final Alignment Output
 
 After processing all audio files, the system generates time-aligned transcripts.  
 The complete alignment results are provided in:
@@ -83,7 +83,7 @@ This ZIP contains:
 - Easy-to-read format for report submission or evaluation
 
 
-## ✅ Custom Dictionary Output
+##  Custom Dictionary Output
 The `output_custom.zip` contains:
 - custom.dict
 - alignment_analysis.csv
