@@ -125,6 +125,15 @@ The screenshot below shows how phoneme and word boundaries are aligned in Praat:
 
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
 
+
+
+## ✅ Custom Dictionary Output
+The `output_custom.zip` contains:
+- custom.dict
+- alignment_analysis.csv
+- TextGrid files generated using my custom lexicon
+
+
 ## Tools Used
 
 - Montreal Forced Aligner (MFA)
