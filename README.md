@@ -6,206 +6,104 @@ with word and phoneme-level timestamps.
 These TextGrid files can be opened and analyzed in **Praat** for visualization.
 
 ---
-
 ## ✅ Table of Contents
 - [Setup & Installation](#setup--installation)
 - [Dataset Format](#dataset-format)
+- [Features](#features)
 - [Running Forced Alignment](#running-forced-alignment)
 - [Inspecting Output in Praat](#inspecting-output-in-praat)
+- [Sample Alignment Output](#sample-alignment-output)
 - [Final Alignment Output](#final-alignment-output)
 - [Custom Dictionary Output](#custom-dictionary-output)
 - [Final Report](#final-report)
 - [Tools Used](#tools-used)
 - [Author](#author)
 
----
+## ✅ Setup & Installation
 
-##  Setup & Installation
+### 1️⃣ Create a Conda Environment
 ```bash
 conda create -n mfa python=3.8 -y
 conda activate mfa
 pip install montreal-forced-aligner
 mfa version
+mfa align --help
 
-### 2. Verify Installation
+## ✅ Features
 
-Run the following command to confirm MFA is installed correctly:
+- Performs forced alignment on speech audio and transcripts
+- Generates TextGrid files with word-level and phoneme-level timestamps
+- TextGrid files can be visualized in Praat
+- Supports custom pronunciation dictionaries (custom.dict)
+- Produces readable alignment output (.txt) inside final_alignment_output.zip
+- Works for multiple audio files automatically
 
-```bash
-./mfa_align --help
-```
-## Dataset Format
-This project contains:
-1. Wav/                → speech audio files
-2. Transcripts/         → matching transcript text files
-3. output_custom/       → TextGrid alignment results
-4. custom.dict          → pronunciation dictionary
+## ✅ Running Forced Alignment
 
-## Features
-- Uses Montreal Forced Aligner for word & phoneme alignment
-- Generates TextGrid files
-- Visualizable in Praat
-- Custom dictionary support
-- Final alignment output (.txt) included in final_alignment.zip
+To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
 
-## Running Forced Alignment
-
-### 1. Download Dictionary
-
+Download the English dictionary:
 ```bash
 mfa download dictionary english_us_arpa
-```
+## ✅ Inspecting Output in Praat
 
-### 2. Run Alignment
+Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.  
+You can visualize word and phoneme boundaries in **Praat**:
 
-```bash
-mfa align wav/ transcripts/ english_us_arpa output/
-```
+1. Open **Praat**
+2. Click **File → Open → Read from file**
+3. Select the `.wav` file and its corresponding `.TextGrid`
+4. Click **View & Edit**
 
-After completion, alignment TextGrid files will appear inside:
-output/
+Praat will display:
+- Waveform
+- Spectrogram
+- Word-level alignment
+- Phoneme-level alignment
 
-```
+This allows you to verify whether the boundaries and durations match the actual speech signal.
 
-## Inspecting Output in Praat
+## 🗂 Sample Alignment Visualization
+✔ Screenshot of TextGrid and Praat showing aligned words and phones.
 
-1. Open Praat
-2. Go to: File → Open → Read from file
-3. Select the `.wav` and `.TextGrid` file
-4. View the waveform with phoneme and word boundaries
+## ✅ Final Alignment Output
 
+After processing all audio files, the system generates time-aligned transcripts.  
+The complete alignment results are provided in:
 
-### Sample Alignment Output
-
-After running the Montreal Forced Aligner, TextGrid files are generated.  
-The screenshot below shows how phoneme and word boundaries are aligned in Praat:
-
-![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
-
-## Final Alignment Output:
-```
-Complete alignment results are provided in:
-✅ final_alignment_output.zip
+📁 **final_alignment_output.zip**
 
 This ZIP contains:
-- Words time-aligned
-- Phones time-aligned
-- Individual alignment text files for all audio
+- Word-level timestamps
+- Phoneme-level timestamps
+- Individual `.txt` alignment files for every audio
+- Easy-to-read format for report submission or evaluation
 
-```
-##  Custom Dictionary Output:
-```
+
+## ✅ Custom Dictionary Output
 The `output_custom.zip` contains:
 - custom.dict
 - alignment_analysis.csv
 - TextGrid files generated using my custom lexicon
-```
 
+## 📄 Final Report
 
-## Tools Used
-```
-- Montreal Forced Aligner (MFA)
+The project report explains the full workflow, methodology, errors, observations, and results.
+
+📌 **Download the final report here:**  
+👉 [Report.pdf](https://github.com/pavs123-gt/forced-alignment-mfa/raw/main/Report.pdf)
+
+*If the preview does not load on GitHub, click “Download” to view the PDF.*
+
+## 🔧 Tools Used
+- Montreal Forced Aligner
 - Praat
-- Linux Terminal
-```
+- Python
 
-### 📄 Final Report
-```
-👉 [Download Report.pdf](https://github.com/pavs123-gt/forced-alignment-mfa/raw/main/Report.pdf)
+## 👩‍💻 Author
 
-(The preview may not load on GitHub, but the file downloads and opens correctly.)
-```
-
-## Author
-````
-Linguberi Pavani
-```
-# Forced Alignment using Montreal Forced Aligner (MFA)
-
-This project performs forced alignment on speech audio (.wav) and transcripts using Montreal Forced Aligner (MFA). It generates timestamped TextGrid files with word and phoneme boundaries, which can be visualized in Praat.
-
-## Table of Contents
-- Setup & Installation
-- Dataset Format
-- Features
-- Running Forced Alignment
-- Inspecting Output in Praat
-- Sample Alignment Output
-- Final Alignment Output
-- Custom Dictionary Output
-- Final Report
-- Tools Used
-- Author
-
-## Setup & Installation
-conda create -n mfa python=3.8 -y
-conda activate mfa
-pip install montreal-forced-aligner
-mfa version
-
-To verify installation:
-mfa_align --help
-
-## Dataset Format
-Wav/                → speech audio files (.wav)
-Transcripts/        → transcript files (.txt)
-output_custom/      → TextGrid alignment results
-custom.dict         → custom dictionary
-
-## Features
-- Performs word and phoneme alignment on speech audio
-- Generates TextGrid files for every sample
-- TextGrid files can be opened in Praat to see word and phone boundaries
-- Supports custom dictionary alignment
-- Creates readable alignment output text files in final_alignment_output.zip
-
-## Running Forced Alignment
-1. Download dictionary:
-mfa download dictionary english_us_arpa
-
-2. Align audio and transcript:
-mfa align Wav/ Transcripts/ english_us_arpa output/
-
-Aligned TextGrid files will appear inside:
-output/
-
-## Inspecting Output in Praat
-1. Open Praat
-2. File → Open → Read from File
-3. Select .wav and .TextGrid
-4. View waveform with word and phoneme timestamps
-
-## Sample Alignment Output
-Praat visualization screenshot:
-(Your praat.png image link)
-
-## Final Alignment Output
-Complete alignment results are provided in:
-final_alignment_output.zip
-
-This ZIP contains:
-- Word-level timestamps
-- Phone-level timestamps
-- One alignment text file per audio
-
-## Custom Dictionary Output
-output_custom.zip contains:
-- custom.dict
-- alignment_analysis.csv
-- TextGrid generated using custom dictionary
-
-## Final Report
-Download Report.pdf from repository:
-(Your Repo Link)
-
-## Tools Used
-Montreal Forced Aligner (MFA)
-Praat
-Linux Terminal
-Python
-
-## Author
-Linguberi Pavani
-
-
+**Linguberi Pavani**  
+B.Tech Student  
+Speech Processing | Forced Alignment using MFA  
+GitHub: https://github.com/pavs123-gt
 
