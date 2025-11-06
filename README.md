@@ -81,7 +81,7 @@ This ZIP contains:
 - Phoneme-level timestamps
 - Individual `.txt` alignment files for every audio
 - Easy-to-read format for report submission or evaluation
-
+---
 
 ##  Custom Dictionary Output
 The `output_custom.zip` contains:
