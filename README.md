@@ -21,8 +21,6 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 ---
 ##  Setup & Installation
 
-```
-## ✅ Setup & Installation
 
 ### 1️. Create and Activate Conda Environment
 ```bash
