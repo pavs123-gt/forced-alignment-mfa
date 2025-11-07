@@ -22,7 +22,7 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 ##  Setup & Installation
 
 
-## 1️. Create and Activate Conda Environment
+##  Create and Activate Conda Environment
 ```bash
 conda create -n mfa python=3.8 -y
 conda activate mfa
@@ -31,6 +31,11 @@ conda activate mfa
 ## Install MOntreal Forced Aligner
 ```bash
 pip install montreal-forced-aligner
+```
+## Verfiy Installation
+```bash
+mfa version
+mfa align --help
 ```
 ---
 ## Features
