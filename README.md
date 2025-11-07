@@ -26,7 +26,7 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 ```bash
 conda create -n mfa python=3.8 -y
 conda activate mfa
-
+```
 
 ## Install MOntreal Forced Aligner
 ```bash
