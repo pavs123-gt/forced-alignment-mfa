@@ -124,7 +124,7 @@ This helps verify whether the alignment correctly matches the speech signal.
 ### Sample praat Output
 The screenshot below shows aligned words and phonemes from my dataset:
 
-![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
+![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat2.png?raw=true)
 
 ---
 
