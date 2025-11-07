@@ -65,11 +65,12 @@ mfa_project/
       ├── audio1_alignment.txt
       ├── audio2_alignment.txt
       └── ...
+```
 - Every .wav file has a matching .txt file  
 - MFA processes them and produces .TextGrid inside output_custom/  
 - These TextGrid files can be opened in Praat
 
-```
+
 ---
 
 
