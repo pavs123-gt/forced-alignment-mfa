@@ -82,16 +82,18 @@ mfa_project/
 - Produces readable alignment output (.txt) inside `final_alignment_output.zip`
 - Works for multiple audio files automatically
 ---
-##  Running Forced Alignment:
+## Running Forced Alignment
 To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
-##  Download dictionary
-```bash
+
+1. Download dictionary:
 mfa download dictionary english_us_arpa
-```
-## Run Forced Alignment
-```bash
-mfa align wav/ transcripts/ english_us_arpa output/
-```
+
+2. Align audio and transcript:
+mfa align Wav/ Transcripts/ english_us_arpa output/
+
+Aligned TextGrid files will appear inside:
+output/
+
 ---
 ##  Inspecting Output in Praat
 
