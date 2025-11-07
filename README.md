@@ -57,7 +57,7 @@ mfa download dictionary english_us_arpa
 mfa align wav/ transcripts/ english_us_arpa output/
 ```
 ---
-## ✅ Inspecting Output in Praat
+##  Inspecting Output in Praat
 
 Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.
 
@@ -80,7 +80,7 @@ Praat will display:
 
 This helps verify whether the alignment correctly matches the speech signal.
 
-### 📌 Sample Praat Visualization
+###  Sample Praat Visualization
 The screenshot below shows aligned words and phonemes from my dataset:
 
 ![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
