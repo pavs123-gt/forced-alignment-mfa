@@ -28,6 +28,10 @@ conda create -n mfa python=3.8 -y
 conda activate mfa
 
 ```
+###Install MOntreal Forced Aligner
+```bash
+pip install montreal-forced-aligner
+```
 ---
 ## Features
 - Performs forced alignment on speech audio and transcripts
