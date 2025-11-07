@@ -40,6 +40,7 @@ mfa align --help
 
 ---
 ## ✅ Dataset Format
+```
 
 The dataset is organized in a clean structure so MFA can read and process files correctly:
 mfa_project/
@@ -64,11 +65,11 @@ mfa_project/
       ├── audio1_alignment.txt
       ├── audio2_alignment.txt
       └── ...
-✔ Every .wav file has a matching .txt file  
-✔ MFA processes them and produces .TextGrid inside output_custom/  
-✔ These TextGrid files can be opened in Praat
+- Every .wav file has a matching .txt file  
+- MFA processes them and produces .TextGrid inside output_custom/  
+- These TextGrid files can be opened in Praat
 
-
+```
 
 
 ---
