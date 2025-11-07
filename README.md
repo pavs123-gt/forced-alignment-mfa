@@ -39,13 +39,34 @@ mfa align --help
 ```
 
 ---
-## Dataset Format
+## ✅ Dataset Format
+
+The dataset is organized in a clean structure so MFA can read and process files correctly:
 
 mfa_project/
- ├── Wav/
- ├── Transcripts/
- ├── output_custom/
- └── custom.dict
+ ├── Wav/                 → Contains all audio files (.wav)
+ │     ├── audio1.wav
+ │     ├── audio2.wav
+ │     └── ...
+ │
+ ├── Transcripts/         → Matching transcript files (.txt)
+ │     ├── audio1.txt
+ │     ├── audio2.txt
+ │     └── ...
+ │
+ ├── output_custom/       → Generated alignment results
+ │     ├── audio1.TextGrid
+ │     ├── audio2.TextGrid
+ │     └── alignment_analysis.csv
+ │
+ └── custom.dict          → Custom pronunciation dictionary
+
+✔ Every .wav file has a matching .txt file  
+✔ MFA processes them and produces .TextGrid inside output_custom/  
+✔ These TextGrid files can be opened in Praat
+
+
+
 
 ---
 ## Features
