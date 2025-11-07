@@ -41,8 +41,8 @@ mfa align --help
 ---
 ##  Dataset Format
 
-```
 The dataset is organized in a clean structure so MFA can read and process files correctly:
+```
 mfa_project/
 │
 ├── Wav/                   → Contains all speech audio files (.wav)
