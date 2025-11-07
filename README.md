@@ -86,11 +86,14 @@ mfa_project/
 To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
 
 1. Download dictionary:
+```bash
 mfa download dictionary english_us_arpa
+```
 
 2. Align audio and transcript:
+```bash
 mfa align Wav/ Transcripts/ english_us_arpa output/
-
+```
 Aligned TextGrid files will appear inside:
 output/
 
