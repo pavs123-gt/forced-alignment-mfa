@@ -39,9 +39,9 @@ mfa align --help
 ```
 
 ---
-## ✅ Dataset Format
-```
+##  Dataset Format
 
+```
 The dataset is organized in a clean structure so MFA can read and process files correctly:
 mfa_project/
 │
@@ -70,9 +70,9 @@ mfa_project/
 - These TextGrid files can be opened in Praat
 
 ```
-
-
 ---
+
+
 ## Features
 - Performs forced alignment on speech audio and transcripts
 - Generates TextGrid files with word-level and phoneme-level timestamps
