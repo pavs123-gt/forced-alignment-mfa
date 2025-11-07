@@ -28,7 +28,7 @@ conda create -n mfa python=3.8 -y
 conda activate mfa
 ```
 
-## Install MOntreal Forced Aligner
+## Install Montreal Forced Aligner
 ```bash
 pip install montreal-forced-aligner
 ```
@@ -48,10 +48,15 @@ mfa align --help
 ---
 ##  Running Forced Alignment:
 To perform forced alignment, we first download a pronunciation dictionary and then run the aligner on our audio and transcript folders.
-### 1️⃣ Download dictionary
+##  Download dictionary
 ```bash
 mfa download dictionary english_us_arpa
 ```
+## Run Forced Alignment
+```bash
+mfa align wav/ transcripts/ english_us_arpa output/
+```
+
 ---
 ##  Inspecting Output in Praat
 
