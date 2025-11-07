@@ -141,7 +141,7 @@ The `output_custom.zip` contains:
 - alignment_analysis.csv
 - TextGrid files generated using my custom lexicon
 
-## 📄 Final Report
+##  Final Report
 
 The project report explains the full workflow, methodology, errors, observations, and results.
 
@@ -150,12 +150,12 @@ The project report explains the full workflow, methodology, errors, observations
 
 *If the preview does not load on GitHub, click “Download” to view the PDF.*
 
-## 🔧 Tools Used
+##  Tools Used
 - Montreal Forced Aligner
 - Praat
 - Python
 
-## 👩‍💻 Author
+##  Author
 
 **Linguberi Pavani**  
 B.Tech Student  
