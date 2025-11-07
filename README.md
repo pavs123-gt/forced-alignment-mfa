@@ -37,6 +37,22 @@ pip install montreal-forced-aligner
 mfa version
 mfa align --help
 ```
+
+---
+## ✅ Dataset Format
+
+This project uses three main folders and one dictionary file:
+
+| Folder/File | Description |
+|-------------|-------------|
+| **Wav/** | Contains all `.wav` speech audio files |
+| **Transcripts/** | Contains matching transcript `.txt` files for each audio |
+| **output_custom/** | Stores the generated `.TextGrid` alignment results |
+| **custom.dict** | Custom pronunciation dictionary used for alignment |
+
+✅ Each audio file in `Wav/` has a corresponding transcript in `Transcripts/`  
+✅ After alignment, TextGrid files are saved in `output_custom/`  
+✅ These can be loaded in Praat for analysis
 ---
 ## Features
 - Performs forced alignment on speech audio and transcripts
