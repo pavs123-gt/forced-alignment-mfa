@@ -12,7 +12,7 @@ These TextGrid files can be opened and analyzed in **Praat** for visualization.
 - [Features](#features)
 - [Running Forced Alignment](#running-forced-alignment)
 - [Inspecting Output in Praat](#inspecting-output-in-praat)
-- [Sample Alignment Output](#sample-alignment-output)
+- [Sample praat Output](#sample-alignment-output)
 - [Final Alignment Output](#final-alignment-output)
 - [Custom Dictionary Output](#custom-dictionary-output)
 - [Final Report](#final-report)
@@ -63,20 +63,20 @@ Once alignment is complete, each audio file will have a matching `.TextGrid` fil
 
 You can visualize word and phoneme boundaries in **Praat** using these steps:
 
-### 🔍 How to View Alignment in Praat
+###  How to View Alignment in Praat
 1. Open **Praat**
 2. Go to **File → Open → Read from file**
 3. Select both:
-   ✅ the `.wav` audio file  
-   ✅ the `.TextGrid` alignment file
+    the `.wav` audio file  
+    the `.TextGrid` alignment file
 4. Click **View & Edit**
 
 Praat will display:
-- ✅ Waveform
-- ✅ Spectrogram
-- ✅ Word boundaries
-- ✅ Phoneme boundaries
-- ✅ Time-stamped alignment for each speech unit
+-  Waveform
+-  Spectrogram
+-  Word boundaries
+-  Phoneme boundaries
+-  Time-stamped alignment for each speech unit
 
 This helps verify whether the alignment correctly matches the speech signal.
 
