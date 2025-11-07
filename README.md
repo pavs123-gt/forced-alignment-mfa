@@ -56,29 +56,35 @@ mfa download dictionary english_us_arpa
 ```bash
 mfa align wav/ transcripts/ english_us_arpa output/
 ```
-
 ---
-##  Inspecting Output in Praat
+## ✅ Inspecting Output in Praat
 
-Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.  
-You can visualize word and phoneme boundaries in **Praat**:
+Once alignment is complete, each audio file will have a matching `.TextGrid` file in the output folder.
 
+You can visualize word and phoneme boundaries in **Praat** using these steps:
+
+### 🔍 How to View Alignment in Praat
 1. Open **Praat**
-2. Click **File → Open → Read from file**
-3. Select the `.wav` file and its corresponding `.TextGrid`
+2. Go to **File → Open → Read from file**
+3. Select both:
+   ✅ the `.wav` audio file  
+   ✅ the `.TextGrid` alignment file
 4. Click **View & Edit**
 
 Praat will display:
-- Waveform
-- Spectrogram
-- Word-level alignment
-- Phoneme-level alignment
+- ✅ Waveform
+- ✅ Spectrogram
+- ✅ Word boundaries
+- ✅ Phoneme boundaries
+- ✅ Time-stamped alignment for each speech unit
 
-This allows you to verify whether the boundaries and durations match the actual speech signal.
----
+This helps verify whether the alignment correctly matches the speech signal.
 
-## 🗂 Sample Alignment Visualization
-✔ Screenshot of TextGrid and Praat showing aligned words and phones.
+### 📌 Sample Praat Visualization
+The screenshot below shows aligned words and phonemes from my dataset:
+
+![Praat Output](https://github.com/pavs123-gt/forced-alignment-mfa/blob/main/praat.png?raw=true)
+
 ---
 
 ##  Final Alignment Output
